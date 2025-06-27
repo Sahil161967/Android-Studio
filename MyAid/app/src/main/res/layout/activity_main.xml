@@ -1,0 +1,155 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:background="@drawable/white"
+     android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="First Aid Basic Treatments:"
+        android:textSize="29sp"
+        android:layout_marginLeft="10sp"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#FF0000"
+        tools:ignore="HardcodedText" />
+
+        
+    <TextView
+        android:text="1.CPR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginLeft="10sp"
+        android:textColor="#000000"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/cprButton"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:padding="16dp"
+        android:src="@drawable/cpr"
+        android:text="CPR"
+        android:onClick="nnn"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/cpr" />
+    <TextView
+        android:text="2.SkinBurn"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginLeft="10sp"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/burnButton"
+        android:textColor="#000000"
+        android:text="burn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:onClick="onClick"
+        app:backgroundTint="#FFFFFF"
+        android:src="@drawable/burn"
+        />
+    <TextView
+        android:text="3.Snake Bite"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginLeft="10sp"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/biteButton"
+        android:text="bite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:backgroundTint="#FFFFFF"
+        android:src="@drawable/snake"
+        />
+    <TextView
+        android:text="4.Broken Bone"
+        android:layout_marginLeft="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:padding="16dp"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/brokenButton"
+        android:text="broken bone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:backgroundTint="#FFFFFF"
+        android:src="@drawable/bone"/>
+    <TextView
+        android:text="5.Choking"
+        android:textColor="#000000"
+        android:layout_marginLeft="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/choking"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:padding="16dp"
+        android:src="@drawable/choking"
+        android:text="Choking"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF" />
+
+    <TextView
+        android:text="6.Eletrical Shock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="10sp"
+        android:padding="16dp"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/shock"
+        android:text="Shock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:backgroundTint="#FFFFFF"
+        android:src="@drawable/shock"/>
+    <TextView
+        android:text="7.Poisoning"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:layout_marginLeft="10sp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/poison"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/poisoining"
+        android:text="Poisoning"
+        app:backgroundTint="#FFFFFF" />
+
+</LinearLayout>
+ </ScrollView>

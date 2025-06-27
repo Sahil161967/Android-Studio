@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white"
+    android:backgroundTint="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30sp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textColor="#651FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snake Bite Steps to Follow:"
+            android:textSize="30sp"
+            android:layout_marginLeft="10sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center"
+            android:src="@drawable/cpr1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="1. Call for medical help immediately."
+            android:textSize="20sp"
+            android:layout_marginLeft="10sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginTop="30sp"
+            android:contentDescription="TODO"
+            android:src="@drawable/snake2"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="2.Keep the affected area immobilized and at or below heart level."
+            android:textSize="20sp"
+            android:layout_marginLeft="10sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:src="@drawable/snake3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10sp"
+            android:layout_height="wrap_content"
+            android:text="3.Remove any tight clothing or jewelry near the affected area."
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <ImageView
+            android:layout_height="100sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:src="@drawable/snake4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Clean the bite wound with soap and water."
+            android:textSize="20sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center"
+            android:layout_height="100sp"
+            android:src="@drawable/snake5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10sp"
+            android:text="5. Cover the bite with a clean, dry dressing."
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_height="100sp"
+            android:src="@drawable/snake6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10sp"
+            android:text="6. Do not apply a tourniquet or ice to the affected area."
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_height="100sp"
+            android:src="@drawable/snake7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10sp"
+            android:text="7. Do not try to suck out the venom."
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_height="100sp"
+            android:src="@drawable/snake8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10sp"
+            android:text="8. Stay calm and still."
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/back"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:onClick="back"
+            android:text="Back"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:backgroundTint="@color/white"
+            app:icon="@drawable/backk"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="📞 emergency call"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FD0000"
+            android:layout_marginTop="20sp"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white"
+    android:backgroundTint="#FFFFFF"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="30sp">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:textColor="#651FFF"
+        android:textStyle="bold|italic"
+        android:text="CPR Steps to Follow:\n\n"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="10sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:src="@drawable/cpr1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Call for medical help immediately."
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="30sp"
+        android:contentDescription="TODO"
+        android:src="@drawable/cpr2"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Place the person on their back and kneel down beside them."
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/cpr3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="3. Place the heel of one hand on the center of their chest and place the other hand on top of the first hand."
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="422dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/cpr4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Use your body weight to press down on their chest about 2 inches."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/cpr5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="10sp"
+        android:layout_height="wrap_content"
+        android:text="5. Repeat compressions at a rate of 100-120 per minute."
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:src="@drawable/cpr6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:text="6. If you are trained in CPR, also give rescue breaths after every 30 compressions."
+        android:textSize="20sp"
+        android:layout_marginBottom="50sp"/>
+
+    <Button
+        android:id="@+id/back"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:onClick="back"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@color/white"
+        app:icon="@drawable/backk"
+        app:iconTintMode="multiply" />
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="📞 emergency call"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        app:backgroundTint="#FD0000"
+        android:layout_marginTop="20sp"
+        />
+
+
+</LinearLayout>
+</ScrollView>
