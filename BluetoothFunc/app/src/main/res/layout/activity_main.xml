@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Functionalities"
+        android:textSize="25dp"
+        android:id="@+id/txt"
+        />
+
+    <Button
+        android:id="@+id/enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enable bt "
+        android:onClick="enable"
+        android:textSize="30sp"
+        android:layout_below="@+id/txt"/>
+
+    <Button
+        android:id="@+id/disabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disable bt"
+        android:textSize="30sp"
+        android:onClick="disabled"
+        android:layout_below="@+id/enable"/>
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extend bt time"
+        android:onClick="search"
+        android:textSize="30sp"
+        android:layout_below="@+id/disabled"
+        />
+
+
+</RelativeLayout>
