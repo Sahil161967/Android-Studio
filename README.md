@@ -33,4 +33,4 @@ The goal is to empower users with essential life-saving tips when professional h
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/accident-care-app.git
+   git clone https://github.com/sahilkamble11/MyAid.git
