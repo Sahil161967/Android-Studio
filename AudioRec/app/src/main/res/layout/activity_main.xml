@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/andr"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/record"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/rec"
+
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_toRightOf="@+id/record"
+        android:src="@drawable/playr"
+
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/stop"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="49dp"
+        android:layout_toEndOf="@+id/play"
+        android:src="@drawable/stop"
+         />
+
+
+</RelativeLayout>
